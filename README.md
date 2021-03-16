@@ -9,12 +9,13 @@ Let's represent the white and black sheeps in a list like the following example,
 ['B', 'B', 'B', 'B', 'B', 'space', 'W', 'W', 'W', 'W', 'W']
 
 
+##### The approach is the following:
+
 - If no white sheep can move we move a black sheep.
 
 - If no black sheep can move we move a white sheep.
 
-While moving a sheep, we check if it can move by one place first, if not we move it by 2 spaces (jump)
-
+While moving a sheep, we check if it can move by one space first, if not we move it by 2 spaces (jump)
 - If both black and white sheeps can move we check : 
 
 -If the empty space is between two sheeps of the same color, we jump with the sheep with the opposite color to the desired direction.
